@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "OBAMA",
   "bot-account": {
     "username": "Technoblade",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "Class7bde.play.hosting",
+    "port": 42237,
     "version": "1.21.1"
   },
   "position": {
@@ -30,12 +30,12 @@
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "MY Names is obama",
+        "I am made by mishaal Obama",
+        "I am the bot that keeps this server 24/7"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
@@ -64,8 +64,8 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": true,
-    "chat": true,
+    "beds": false,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
@@ -73,11 +73,11 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
-    "enabled": true,
+    "enabled": false,
     "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
     "events": {
       "connect": true,
