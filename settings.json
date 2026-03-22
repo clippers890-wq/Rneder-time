@@ -27,15 +27,15 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
+      "repeat": false,
       "repeat-delay": 500,
       "messages": [
-        "MY Names is obama",
+        "/register obamaobama obamaobama",
         "I am made by mishaal Obama",
         "I am the bot that keeps this server 24/7"
       ]
     },
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
